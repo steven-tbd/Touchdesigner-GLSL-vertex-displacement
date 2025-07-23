@@ -86,4 +86,6 @@ x 		  ┣ x,y(0.5,0.5)
 		  y
 ```           			
 
+### Project Links & Demos
 
+*   **Project Write-up:** [https://stevenmbenton.com/glsl-vertex-displacement/](https://https://stevenmbenton.com/glsl-vertex-displacement//)
