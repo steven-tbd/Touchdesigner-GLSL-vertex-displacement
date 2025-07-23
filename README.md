@@ -56,15 +56,15 @@ Vertex Shaders operate in **Normalized Device Coordinates (NDC)**, where the vis
 Vertex Shader Coordinates	
 
 (-1.0,1.0)  ┏╍╍╍╍╍╍╍┳╍╍╍╍╍╍╍┓ (1.0,1.0)
-		    ╏               ╏  
-		    ╏               ╏
-		    ╏	   x,y	    ╏
-		  x ┣   (0.0,0.0)   ┫
-		    ╏               ╏
-		    ╏               ╏ 
-		    ╏               ╏
+		    ╏                 
+		    ╏               
+		    ╏	  	    
+x		    ┣ x,y(0.0,0.0)   
+		    ╏               
+		    ╏                
+		    ╏               
 (-1.0,-1.0) ┗╍╍╍╍╍╍╍┻╍╍╍╍╍╍╍┛ (1.0,-1.0)	
- 			        y
+ 		    y
 ```
 
 ### Fragment Shader: Coordinates
@@ -75,15 +75,15 @@ The Fragment (or Pixel) Shader is responsible for the color of each pixel on the
 Fragment (Pixel) Shader	Coordinates	
 
 (0.0,0.1) ┏╍╍╍╍╍╍╍┳╍╍╍╍╍╍╍┓ (1.0,1.0)
-		  ╏               ╏  
-		  ╏               ╏
-		  ╏		 x,y	  ╏
-		x ┣	  (0.5,0.5)   ┫
-		  ╏               ╏
-		  ╏               ╏ 
-		  ╏               ╏
+		  ╏                 
+		  ╏               
+		  ╏		 	  
+x 		  ┣ x,y(0.5,0.5)   
+		  ╏               
+		  ╏               
+		  ╏               
 (0.0,0.0) ┗╍╍╍╍╍╍╍┻╍╍╍╍╍╍╍┛ (1.0,0.0)	
- 			      y
+		  y
 ```           			
 
 
